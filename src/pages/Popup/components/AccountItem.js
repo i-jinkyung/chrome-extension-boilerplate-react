@@ -2,7 +2,7 @@ import React from 'react';
 import { Avatar } from '../../share/Avatar';
 import { EditItem } from './EditItem';
 export var AccountItem = function () {
-    return (React.createElement("div", { className: "collapse collapse-arrow !relative" },
+    return (React.createElement("div", { className: "collapse collapse-arrow !relative overflow-y-visible text-base" },
         React.createElement("input", { type: "radio", name: "my-accordion-2" }),
         React.createElement("div", { className: "collapse-title text-lg font-medium flex gap-2 items-center" },
             React.createElement(Avatar, null),

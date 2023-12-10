@@ -4,7 +4,7 @@ import { EditItem } from './EditItem';
 
 export const AccountItem = () => {
   return (
-    <div className="collapse collapse-arrow !relative">
+    <div className="collapse collapse-arrow !relative overflow-y-visible text-base">
       <input type="radio" name="my-accordion-2" />
       {/*서비스명*/}
       <div className="collapse-title text-lg font-medium flex gap-2 items-center">

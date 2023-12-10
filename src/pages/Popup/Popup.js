@@ -1,6 +1,5 @@
 import React from 'react';
-import './Popup.css';
-var Popup = function () {
-  return React.createElement('div', null, 'Hello Popup');
+import '../../styles/index.css';
+export var Popup = function () {
+    return React.createElement("div", { className: "text-red-500 btn" }, "Hello Popup");
 };
-export default Popup;

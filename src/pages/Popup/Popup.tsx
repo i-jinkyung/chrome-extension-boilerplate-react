@@ -1,10 +1,6 @@
 import React from 'react';
-import './Popup.css';
+import '../../styles/index.css';
 
-const Popup = () => {
-  return (
-      <div>Hello Popup</div>
-  );
+export const Popup = () => {
+  return <div className="text-red-500 btn">Hello Popup</div>;
 };
-
-export default Popup;
